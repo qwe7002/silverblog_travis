@@ -8,4 +8,4 @@ script:
 - cp -r templates ./silverblog/templates
 - cd silverblog
 - git clone https://${github_key}@github.com/qwe7002/qwe7002_travis.github.io static_page
-- ./manage.py build-page
+- python manage.py build-page

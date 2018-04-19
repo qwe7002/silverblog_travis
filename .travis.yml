@@ -2,10 +2,8 @@ language: python
 python: 3.6
 
 script:
-- pip install hoedown pyrss2gen jinja2
-- cp -r ./document ./silverblog/document
-- cp -r ./config ./silverblog/config
-- cp -r templates ./silverblog/templates
+- pip install hoedown pyrss2gen flask gitpython
+- cp -r ./document ./silverblog/document && cp -r ./config ./silverblog/config && cp -r templates ./silverblog/templates
 - cd silverblog
 - git clone https://${github_key}@github.com/qwe7002/qwe7002_travis.github.io static_page
 - python manage.py build-page

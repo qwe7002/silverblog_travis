@@ -1,0 +1,3 @@
+[submodule "silverblog"]
+	path = silverblog
+	url = https://github.com/SilverBlogTeam/silverblog.git

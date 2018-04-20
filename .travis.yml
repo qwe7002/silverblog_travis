@@ -8,4 +8,4 @@ script:
 - git checkout nightly
 - git clone https://${github_key}@github.com/SilverBlogTeam/silverblogteam.github.io.git static_page
 - python manage.py update
-- python manage.py build-pagenightly
+- python manage.py build-page

@@ -6,6 +6,6 @@ script:
 - cp -r ./document ./silverblog/document && cp -r ./config ./silverblog/config && cp -r templates ./silverblog/templates
 - cd silverblog
 - git checkout nightly
-- git clone https://${github_key}@github.com/SilverBlogTeam/silverblogteam.github.io.git static_page
+- git clone https://${github_key}@github.com/qwe7002/qwe7002.github.io.git static_page
 - python manage.py update
 - python manage.py build-page
